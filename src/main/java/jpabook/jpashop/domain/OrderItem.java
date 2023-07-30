@@ -48,4 +48,8 @@ public class OrderItem {
     public int getTotalPrice() {
         return getOrderPrice() * getCount();
     }
+
+    public void setOrder(Order order) {
+        this.order = order;
+    }
 }

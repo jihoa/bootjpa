@@ -1,13 +1,24 @@
+server:
+  port: 8090
+
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#  h2:
+#    console:
+#      enabled: true
+#      path: /console
+
+
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password:
-    driver-class-name: org.h2.Driver
-  h2:
-    console:
-      enabled: true
-      path: /console
+    url: jdbc:mariadb://14.63.192.56:3306/jpashop
+    username: sewang
+    password: sewang
+    driver-class-name: org.mariadb.jdbc.Driver
 
 
 
